@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>navbar效果</title>
+  <style type="text/css">
+body {
+    background-color: #f6f7f7;
+    color: #000000;
+    font-family: "微软雅黑",Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 1em;
+    line-height: 20px;
+    margin: 0;
+}
+ .navbar {
+    background:#3480d9;
+    font-size: 15px;
+    position: relative;
+    z-index: 1000;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #205fa7;
+    /* overflow: hidden\9; */
+}
+.navbar-inner {line-height: 52px;margin: 0 17px 0 23px; min-height: 52px;}
+.navbar .navbar-inner .brand {
+    /* background: url("images/title_portal.png") no-repeat scroll 0 0; */
+    line-height: 52px;
+    line-height: 50px\9;
+     overflow: hidden;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    float: left;
+    height: 52px;
+    height: 50px\9; 
+    width:190px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+</style>
+</head>
+<body style="height:1500px">
+  <!-- navbar -->
+  <div class="navbar">
+    <div class="navbar-inner">
+      <a href="" class="brand">*******navbar****</a>
+    </div>
+  </div>
+
+  <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+  <script type="text/javascript" src="nav.js"></script>
+  <script type="text/javascript">$('.navbar').nav()</script>
+
+</body>
+</html>
